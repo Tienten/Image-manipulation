@@ -10,7 +10,7 @@
 
 int main(int argc, char** argv) {
   FILE *filename = fopen(argv[1],"r");//open file and assign pointer
-  char *type[2];
+  char type[2];
   int rows, cols;
   int max_value;
 
